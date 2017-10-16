@@ -30,7 +30,8 @@ public abstract class Phone implements BluetoothDevice {
     }
 
     public void connect(BluetoothDevice device) {
-        System.out.println("Conneced to " + device.getName());
+        System.out.println("Connected to " + device.getName());
+        
     }
 
     public String getName() {
